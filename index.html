@@ -26,6 +26,17 @@
       type="image/png"
       sizes="32x32"
     />
+    <title>Mi perfil de Instagram</title>
+    <!--Metaetiquetas a redes sociales-->
+    <meta property="og:title" content="Mi perfil de Instagram" />
+    <meta property="og:description" content="Sígueme en Instagram " />
+    <meta
+      property="og:image"
+      content="assets/pictures/image/flor de loto.avif"
+    />
+    <meta property="og:url" content="https://www.Elartedeltattoo.com" />
+    <!--Enlaces a redes sociales-->
+    <link rel="me" href="https://www.instagram.com/elartedeltatuaje2025" />
   </head>
 
   <body>
@@ -1130,14 +1141,63 @@
         </section>
       </article>
     </main>
-
     <footer>
       <address style="text-align: center">
         <p>Mateo David Pereira Villamil</p>
         <p>mateod65@gmail.com</p>
         <p>España, Vigo</p>
       </address>
+      <p style="text-align: center">Copyright &copy; 2024 - 2025</p>
+      <p style="text-align: center">Sigueme en Instagram</p>
+      <a href="https://www.instagram.com/elartedeltatuaje2025" target="_blank"
+        >Visita mi perfil aquí</a
+      >
     </footer>
-    <aside></aside>
+    <aside>
+      <h2 style="text-align: center">
+        <strong>¿Quiere hacerse un tatuaje?</strong>
+      </h2>
+      <form
+        action="Elartedeltattoo.com"
+        method="post"
+        target="_blank"
+        name="registro de tatuajes"
+      >
+        <fieldset>
+          <legend>Información personal</legend>
+          <label for="nombre">Nombre completo: </label>
+          <input
+            type="text"
+            name="nombre"
+            placeholder="Indique aquí su nombre"
+          />
+          <label for="correo">Correo electrónico: </label>
+          <input
+            type="email"
+            name="correo"
+            placeholder="Indique aquí su email"
+          />
+          <input type="date" name="fecha de nacimiento" />
+          <select name="Tipo de tatuaje" id="tTattoo">
+            <option value="">Indique su estilo de tatuaje</option>
+            <option value="old school">Old School</option>
+            <option value="neotradicional">Neotradicional</option>
+            <option value="new school">New School</option>
+            <option value="japonés">Japonés</option>
+            <option value="neojaponés">Neojaponés</option>
+            <option value="neotribal">Neotribal</option>
+            <option value="realismo">Realismo</option>
+            <option value="blackwork">Blackwork</option>
+            <option value="geométrico">Geométrico</option>
+            <option value="biomechanical 3d">Biomechanical 3D</option>
+            <option value="ilustración">Ilustración</option>
+          </select>
+          <input name="indicación" type="submit" value="Indicar" />
+          <strong>¿Tiene algo pensado ya?</strong>
+          <input type="file" name="foto_tattoo" accept="image/*" />
+          <input type="submit" value="subir foto" />
+        </fieldset>
+      </form>
+    </aside>
   </body>
 </html>
